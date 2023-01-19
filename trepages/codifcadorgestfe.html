@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="JavaScript, códigos, ejemplos, funciones, arrays, obajtos, JSON, API, promesas, ciclos, if, for ">
+    <meta name="description" content="En esta sección de JS Junior Trainer, te pedimos que pruebes nuestros ejemplos, pases por nuestro repositorio GITHUB y nos dejes tus comentarios">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>JS Junior Trainer | Codificador</title>
+</head>
+    <header id="header_boot">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../imgf/logonav.webp" alt="Javascript" class="logo_cucina"></img></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../pagesprincipal/simulacionpg.html">Simulación</a>
+                    <a class="nav-link" href="../pagesprincipal/api.html">API</a>
+                    <a class="nav-link" href="../pagesprincipal/nosotros.html">Nosotros</a>
+                  </div>
+              </div>
+            </div>
+          </nav>
+      </header>
+<body>
+  <div class="container mt-5">
+      <h1>Buscador Códigos</h1>
+  </div>
+  <section class="p-4 vh-auto">
+    <div class="container h-auto">
+        <div class="row d-flex justify-content-center align-items-center h-auto">
+            <div class="col-lg-12 col-xl-11 col-xxl-12">
+                <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                        <div class="row justify-content-center text_comentario">
+                            <h2 class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Codificador GE FEDE</h2>
+                            <div class="col-md-10 col-lg-12 col-xl-5 order-2 order-lg-1 text_comentario">
+                                <h3 class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Seleccione las funcionalidades que desea:</h3>
+                                <form class="mx-1 mx-md-4">  
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                      <div class="form-outline flex-fill mb-0">
+                                          <ul style="list-style: none;">
+                                            <li><input name="checks[]" type="checkbox" value="1" />PM</li>
+                                            <li><input name="checks[]" type="checkbox" value="2" />NM 444</li>
+                                            <li><input name="checks[]" type="checkbox" value="3" />NM 344</li>
+                                            <li><input name="checks[]" type="checkbox" value="4" />NM 343</li>
+                                            <li><input name="checks[]" type="checkbox" value="5" />NM 253</li>
+                                            <li><input name="checks[]" type="checkbox" value="6" />VITRAN</li>
+                                            <li><input name="checks[]" type="checkbox" value="7" />ECODRIVE</li>
+                                            <li><input name="checks[]" type="checkbox" value="8" />EXCESO VELOCIDAD</li>
+                                            <li><input name="checks[]" type="checkbox" value="9" />ODOMETRO</li>
+                                            <li><input name="checks[]" type="checkbox" value="10" />IDENTIFICADOR CHOFER</li>
+                                            <li><input name="checks[]" type="checkbox" value="11" />SENSOR TEMPERATURA (1)</li>
+                                            <li><input name="checks[]" type="checkbox" value="12" />RALENTI</li>
+                                            <li><input name="checks[]" type="checkbox" value="13" />MODO DORMIDO</li> 
+                                            <li><input name="checks[]" type="checkbox" value="14" />ACTUALIZA POSICION</li> 
+                                          </ul> 
+                                          <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                            <button type="button" class="btn btn-primary btn-lg boton_card m-1" id="btnGenerarBusquedaGe">Generar Búsqueda</button>
+                                            <button type="button" class="btn btn-primary btn-lg boton_card m-1" id="btnBorrarDatosBusquedaGe">Borrar Datos Búsqueda</button>
+                                          </div>
+    
+                                            <div >Ids seleccionados en matriz <span id="arr"></span></div>
+                                            <div >Ids seleccionados <span id="str"></span></div>
+                                        </div>
+                                    </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<Section>
+  <div class="container h-auto">
+    <div class="row d-flex justify-content-center align-items-center h-auto">
+        <div class="col-lg-12 col-xl-11 col-xxl-12">
+            <div class="card text-black" style="border-radius: 25px;">
+                <div class="card-body p-md-5">
+                    <div class="row justify-content-center text_comentario">
+                        <h3 class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Código a utilizar:</h3>
+                        <div class="col-md-10 col-lg-12 col-xl-5 order-2 order-lg-1 text_comentario">
+                          <div id="contendor">
+                            <p id="resultadoBusqueda1"></p>
+                            <p id="resultadoBusqueda2"></p>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</Section>
+  <footer class="text-center text-lg-start" id="footer_boot">
+    <div class="container d-flex justify-content-center py-2"></div>
+      <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <p class="col-md-4 mb-0 text-white">&copy; 2022 JS Junior Trainer</p>
+            <a href="../index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <img src="../imgf/Logofooter2.webp" alt="Js Junior Trainer" class="footer_img"></img>
+            </a>
+            <ul class="nav col-md-4 justify-content-center" id="footer_ico">
+              <li class="nav-item icono_footer"><a href="https://github.com/nicof31/proyectofinalfrugoninicolas" class="nav-link px-2 text-white"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+      </div>
+    </div>
+    <div>
+      <script type="module" src="../js/codificadorgestfe.js"></script>
+    </div>
+  </footer>      
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>

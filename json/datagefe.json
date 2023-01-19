@@ -1,0 +1,385 @@
+[
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"LG100",
+        "codigoDeEquipo":"7002.A0005-1 Equipo GESTYA LG 100 GP - Claro",
+        "codigoInterfaz": "X7001.A032-7 Cable comunicación GESTYA LG 100 a protector motor",
+        "adaptador": "No corresponde",   
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"LG100",
+        "codigoDeEquipo":"7002.A0006-4 Equipo GESTYA LG 100 - Movistar SS",
+        "codigoInterfaz": "X7001.A032-7 Cable comunicación GESTYA LG 100 a protector motor", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0014-2 Equipo GESTYA CL 340 AS - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "A01.00701-6 Cable puertos libres GESTYA CL 340",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion1",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0013-2 Equipo GESTYA CL 340 AS - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "A01.00701-6 Cable puertos libres GESTYA CL 340",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion2",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220",
+        "NM444": "Apto"
+    },
+    {
+        "id": "combinacion2",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220",
+        "NM444": "Apto"
+    },
+    {
+        "id": "combinacion2",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220",
+        "NM444": "Apto"
+    },
+    {
+        "id": "combinacion2",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220",
+        "NM444": "Apto"
+    },
+    {
+        "id": "combinacion3",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion3",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion3",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion3",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion3",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0014-2 Equipo GESTYA CL 340 AS - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "A01.00701-6 Cable puertos libres GESTYA CL 340"
+    },
+    {
+        "id": "combinacion3",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0013-2 Equipo GESTYA CL 340 AS - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "A01.00701-6 Cable puertos libres GESTYA CL 340"
+    },
+    {
+        "id": "combinacion4",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0025-9 Equipo GESTYA PL 220 - Movistar SS - NM 344/NM 444",
+        "codigoInterfaz": "X7001.A501-3 Kit puertos libres interfaz CAN con conector molex / X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "No corresponde"
+    },
+    {
+        "id": "combinacion4",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0026-2 Equipo GESTYA PL 220 - Claro - NM 344/NM 444",
+        "codigoInterfaz": "X7001.A501-3 Kit puertos libres interfaz CAN con conector molex / X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "No corresponde"
+    },
+    {
+        "id": "combinacion4",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0027-2 Equipo GESTYA PL 220 - Personal - NM 344/NM 444",
+        "codigoInterfaz": "X7001.A501-3 Kit puertos libres interfaz CAN con conector molex / X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "No corresponde"
+    },
+    {
+        "id": "combinacion4",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0028-5 Equipo GESTYA PL 220 - Claro - Movistar SS - NM 344/NM 444",
+        "codigoInterfaz": "X7001.A501-3 Kit puertos libres interfaz CAN con conector molex / X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "No corresponde"
+    },
+    {
+        "id": "combinacion4",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0030-1 Equipo GESTYA PL 220 - Claro - Personal - NM 344/NM 444",
+        "codigoInterfaz": "X7001.A501-3 Kit puertos libres interfaz CAN con conector molex / X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A562-0 Kit identificador de chofer GESTYA PL 210 - PL 220 con conector molex sin cable de puertos libres /", 
+        "adaptador": "No corresponde"
+    },
+    {
+        "id": "combinacion5",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion5",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion5",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion5",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX / X7001.A659-2 Kit sensor de temperatura con prolongación de 12 metros /", 
+        "adaptador": "X7001.A497-2 Conector con cables para puertos libres PL 210 - PL 220"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"LG100",
+        "codigoDeEquipo":"7002.A0005-1 Equipo GESTYA LG 100 GP - Claro",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",  
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"LG100",
+        "codigoDeEquipo":"7002.A0006-4 Equipo GESTYA LG 100 - Movistar SS",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL205",
+        "codigoDeEquipo":"7052.A0004-1 Equipo GESTYA PL 205 - Claro",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",  
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL205",
+        "codigoDeEquipo":"7052.A0033-7 Equipo GESTYA PL 205 - Movistar SS",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL205",
+        "codigoDeEquipo":"7052.A0038-9 Equipo GESTYA PL 205 Dual SIM - Claro/Movistar SS",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0014-2 Equipo GESTYA CL 340 AS - Claro",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion6",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0013-2 Equipo GESTYA CL 340 AS - Movistar SS",
+        "codigoInterfaz": "No corresponde", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion7",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion7",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion7",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion7",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "X7001.A414-8 Adaptador interfaz PL 210 - PL 220 a protector motor",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion7",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0014-2 Equipo GESTYA CL 340 AS - Claro",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "A01.00701-6 Cable puertos libres GESTYA CL 340",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion7",
+        "modeloEquipo":"CL340",
+        "codigoDeEquipo":"7122.A0013-2 Equipo GESTYA CL 340 AS - Movistar SS",
+        "codigoInterfaz": "X7001.A657-8 Kit interfaz equipo GESTYA a protector de motor con conector MOLEX", 
+        "adaptador": "A01.00701-6 Cable puertos libres GESTYA CL 340",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion8",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0001-2 Equipo GESTYA PL 220 - Claro",
+        "codigoInterfaz": "X7001.A540-0 Kit de conexión GESTYA-VITRAN", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion8",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0013-2 Equipo GESTYA PL 220 - Personal",
+        "codigoInterfaz": "X7001.A540-0 Kit de conexión GESTYA-VITRAN", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion8",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0014-2 Equipo GESTYA PL 220 - Movistar SS",
+        "codigoInterfaz": "X7001.A540-0 Kit de conexión GESTYA-VITRAN", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    },
+    {
+        "id": "combinacion8",
+        "modeloEquipo":"PL220",
+        "codigoDeEquipo":"7092.A0015-5 Equipo GESTYA PL 220 - Claro - Movistar SS",
+        "codigoInterfaz": "X7001.A540-0 Kit de conexión GESTYA-VITRAN", 
+        "adaptador": "No corresponde",
+        "NM444": "No apto"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
