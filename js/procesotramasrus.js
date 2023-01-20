@@ -97,37 +97,27 @@ function dividirCadena(cadenaADividir,separador) {
       let temperaturaParseo = arrayDeCadenas[4],
       temperatura = temperaturaParseo.substring(0, 3); 
       let temperaturaFinal = temperatura ; 
-      console.log(temperaturaFinal);
-      console.log("-------------------")
-
+  
       //--------------RPM Motor ------------
       let rpmMotorParseo = arrayDeCadenas[4],
       rpmMotor = rpmMotorParseo.substring(3, 7); 
       let rpmMotorFinal = rpmMotor ; 
-      console.log(rpmMotorFinal);
-      console.log("-------------------")
-
+    
       //--------------Sensor Aceite ------------
       let sensorAceiteParseo = arrayDeCadenas[4],
       sensorAceite = sensorAceiteParseo.substring(7, 8); 
       let sensorAceiteFinal = sensorAceite ; 
-      console.log(sensorAceiteFinal);
-      console.log("-------------------")
-
+    
       //--------------Actuador ------------
       let actuadorParseo = arrayDeCadenas[4],
       actuador = actuadorParseo.substring(8, 9); 
       let actuadorFinal = actuador ; 
-      console.log(actuadorFinal);
-      console.log("-------------------")
-
-         //--------------Tensión Bateria ------------
-         let tensionBateriaParseo = arrayDeCadenas[4],
-         tensionBateria = tensionBateriaParseo.substring(9, 12); 
-         let tensionBateriaFinal = tensionBateria ; 
-         console.log(tensionBateriaFinal);
-         console.log("-------------------")
-
+     
+      //--------------Tensión Bateria ------------
+      let tensionBateriaParseo = arrayDeCadenas[4],
+      tensionBateria = tensionBateriaParseo.substring(9, 12); 
+      let tensionBateriaFinal = tensionBateria ; 
+      
       //--------------Compilacion Objeto Final ------------
       let compilacionObjetoFinal = {
          tipoTrama: arrayDeCadenas[0],
