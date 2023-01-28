@@ -48,6 +48,10 @@ console.log(tramaServidor)
                     crc: arrayDeCadenas[9],
                 };
                 console.log(objetoResultadoParseo); 
+
+                        //--------------Datos PM: "imprsion de valores parseado en DOM" ------------
+                        document.getElementById("datosPm").innerHTML= objetoResultadoParseo.datosPm
+
                         //DATOS FECHA/HORA/POSICION/VELOCIDAD/SEÑAL/ENTRADAS
 
                 //-------------- pareseo fecha ------------
@@ -235,11 +239,40 @@ console.log(tramaServidor)
                     entradaIn1:entradasBinario[7],
                 };
                 console.log(compilacionObjetoFinal) ;
+                console.log(compilacionObjetoFinal.temperatura)
+                
+                             //--------------Datos PM: "impresion de valores procesados en DOM" ------------
+                                     //--------------Dato Temeperatura: proceso para impresion DOM" ------------
+                                    document.getElementById("dTempPm").innerHTML= (' '+ compilacionObjetoFinal.temperatura + ' °C');  ;
+
+                            //--------------Dato Aceite: proceso para impresion DOM" ------------
+
+                            switch(compilacionObjetoFinal.sensorAceite){
+                                case "0":
+                                    document.getElementById("dAceitePm").innerHTML= (' '+ compilacionObjetoFinal.sensorAceite + ' Motor en marcha');  
+                                    break;
+                                case "1":  
+                                    document.getElementById("dAceitePm").innerHTML= (' '+ compilacionObjetoFinal.sensorAceite + ' Motor apagado'); 
+                                break;
+                                default:
+                                    document.getElementById("dAceitePm").innerHTML="Sin datos"; 
+                                break;
+                            }
+                            //--------------Dato RPM: proceso para impresion DOM" ------------
+                            document.getElementById("dRpmPm").innerHTML= compilacionObjetoFinal.rpmMotor;
+
+                            //--------------Dato Bateria: proceso para impresion DOM" ------------
+                            document.getElementById("dBateriaPm").innerHTML= (' '+ '+ ' + compilacionObjetoFinal.tensionBateria.slice(0, 2)+'.'+ compilacionObjetoFinal.tensionBateria.slice(2,3) + '');
+
+                            
+
                 }
             }
 
             let coma = ",";
             dividirCadena(tramaSegundoParseo, coma);
+            
+           
 
             break;  
             default:
